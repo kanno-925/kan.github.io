@@ -1,0 +1,55 @@
+/*ヘッダー*/
+.header{
+  background-color: rgb(29, 28, 28);
+  height: 40px;
+}
+
+/*新着お知らせ文字*/
+.hedfont {
+  padding-left: 500px;
+  color: rgb(255, 255, 255);
+}
+
+/* 検索バー */
+.word{
+  position: absolute;
+  left:50px;
+  top: 16px;
+}
+
+/* メイン*/
+.main {
+  background-color: rgb(245, 245, 245);
+  height: 600px;
+  
+}
+
+/* フッター*/
+.footer {
+  background-color: rgb(245, 245, 245);
+  height: 270px;
+}
+
+
+/* URL付きのフォント*/
+.bin{
+  padding: 8px 40px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.4;/* フォントの色を薄くする*/
+  /* border-radiusを4pxに指定してください */
+  border-radius:4px;
+}
+
+/* URL付きのフォント*/
+.bin:hover {
+  opacity: 1;/* フォントの色を濃くする*/
+}
+
+/* アイコン一覧 */
+.fa {
+  opacity: 1;
+  margin-left:10px;
+  margin-top: 16px;
+}
